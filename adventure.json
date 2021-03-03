@@ -1,0 +1,37 @@
+{
+  "start":
+  {
+    "text": "You stand surrounded on all sides by water. What do you do?",
+    "choices":
+    {
+      "Go north": "die_north",
+      "Go south": "die_south",
+      "Go east": "live_east",
+      "Go west": "die_west",
+      "Do nothing":"start"
+    }
+  },
+  "die_north": {
+    "text":"You are eaten by sharks and die."
+  },
+  "die_south": {
+    "text":"You cannot swim and drown"
+  },
+  "live_east": {
+    "text":"You manage to tread water and survive. What do you do?",
+    "choices":
+    {
+      "Go north": "die_north",
+      "Go south": "die_south",
+      "Go east": "die_east",
+      "Go west": "start",
+      "Do nothing":"live_east"
+    }
+  },
+  "die_east": {
+    "text":"You eaten by piranhas and die."
+  },
+  "die_west": {
+    "text":"Dolphins attempt to fornicate with you, you do not survive their attempts."
+  }
+}
