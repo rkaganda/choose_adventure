@@ -58,7 +58,7 @@ def main():
             break  # time to quit
 
     # the end
-    print("The End.")
+    input("The End.")
 
 
 if __name__ == "__main__":
